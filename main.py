@@ -4,7 +4,7 @@ from fastapi.responses import HTMLResponse,FileResponse
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from datetime import datetime
-from sqlalchemy import Column, DateTime, String, Float, func, select
+from sqlalchemy import DateTime, String, Float, func, select
 
 
 # 创建FastAPI实例
