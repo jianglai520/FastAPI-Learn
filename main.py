@@ -399,16 +399,3 @@ async def delete_book(book_id: int, db: AsyncSession = Depends(get_database)):
     await db.delete(db_book)
     await db.commit()
     return {"message": "删除成功"}
-
-
-
-
-
-
-
-
-
-
-
-
-
